@@ -49,7 +49,7 @@ Description of the main use cases:
 
 ## Entity-Relationship Diagram (ERD)
 
-
+![Entity-Relationship Diagram](diagrams/entity_relationship_diagram.png)
 
 Entities and relationships:
 - **User**: Stores user information including username and password.
