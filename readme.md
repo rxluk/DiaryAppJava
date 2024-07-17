@@ -54,3 +54,15 @@ Description of the main use cases:
 Entities and relationships:
 - **User**: Stores user information including username and password.
 - **Note**: Stores diary entries with date, text content, learning, gratitude, and category attributes.
+
+## Class Diagram
+
+![Class Diagram](diagrams/class-diagram.png)
+
+Classes and relationships:
+- **User**: Represents the user entity with attributes id, username, password, and notes.
+- **Note**: Represents the note entity with attributes id, date, text, learning, gratitude, category, and user.
+- **UserRepository**: Interface for CRUD operations on User entities.
+- **NoteRepository**: Interface for CRUD operations on Note entities.
+- **UserService**: Service class containing business logic for user operations.
+- **NoteService**: Service class containing business logic for note operations.
