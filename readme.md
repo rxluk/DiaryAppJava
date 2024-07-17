@@ -1,53 +1,48 @@
-# Diary
+# DiaryApp
 
-## Visão Geral do Projeto
-- **Descrição**: Um aplicativo de diário pessoal desenvolvido em Java, permitindo aos usuários registrar suas anotações diárias, visualizar registros anteriores e realizar buscas no conteúdo do diário.
-- **Objetivo**: Fornecer uma plataforma segura e fácil de usar para a manutenção de um diário pessoal digital.
+## Project Overview
+- **Description**: A Java-based personal diary application that allows users to record daily notes, view previous entries, and search diary content.
+- **Objective**: Provide a secure and user-friendly platform for maintaining a digital personal diary.
 
-## Funcionalidades Principais
-- Cadastro de Usuário
-- Login/Autenticação
-- Adicionar Anotação
-- Visualizar Anotações
-- Pesquisar Anotações
-- Edição e Exclusão de Anotações
+## Key Features
+- User Registration
+- Login/Authentication
+- Add Note
+- View Notes
+- Search Notes
+- Edit and Delete Notes
 
-## Requisitos Funcionais
-- RF01: Cadastro de novos usuários
-- RF02: Autenticação de usuários registrados
-- RF03: Adição de novas anotações no diário
-- RF04: Visualização de anotações anteriores
-- RF05: Busca por palavras-chave nas anotações do diário
-- RF06: Edição e exclusão de anotações
+## Functional Requirements
+- RF01: User registration
+- RF02: Authentication of registered users
+- RF03: Addition of new notes to the diary
+- RF04: Viewing previous notes
+- RF05: Keyword search in diary notes
+- RF06: Editing and deleting notes
 
-## Requisitos Não Funcionais
-- RNF01: Segurança dos dados do usuário
-- RNF02: Responsividade em diferentes dispositivos
-- RNF03: Facilidade de uso e interface intuitiva
-- RNF04: Escalabilidade para suportar múltiplos usuários
+## Non-Functional Requirements
+- RNF01: User data security
+- RNF02: Responsiveness across different devices
+- RNF03: Ease of use and intuitive interface
+- RNF04: Scalability to support multiple users
 
-## Arquitetura do Sistema
-- **Camada de Apresentação**: Interface de usuário (JavaFX ou Spring Boot com Thymeleaf)
-- **Camada de Lógica de Negócios**: Serviços que gerenciam as regras de negócio
-- **Camada de Persistência**: Interação com o banco de dados PostgreSQL
-- **Camada de Segurança**: Gestão de autenticação e autorização
+## System Architecture
+- **Presentation Layer**: User interface (JavaFX or Spring Boot with Thymeleaf)
+- **Business Logic Layer**: Services handling business rules
+- **Persistence Layer**: Interaction with PostgreSQL database
+- **Security Layer**: Authentication and authorization management
 
-## Diagrama de Casos de Uso
+## Use Case Diagram
 
-```plantuml
-@startuml
+![Use Case Diagram](diagrams/use-case-diagram.png)
 
-actor Usuario as User
-rectangle Sistema {
-  User --> (Cadastro de Usuário)
-  User --> (Login)
-  User --> (Adicionar Anotação)
-  User --> (Editar Anotação)
-  User --> (Excluir Anotação)
-  User --> (Visualizar Anotações)
-  User --> (Pesquisar Anotações)
-  User --> (Logout)
+Description of the main use cases:
 
-}
-
-@enduml
+- **User Registration**: Allows new users to register in the system.
+- **Login**: Allows registered users to log into the system.
+- **Add Note**: Allows users to add new notes to the diary.
+- **Edit Note**: Allows users to edit existing notes in the diary.
+- **Delete Note**: Allows users to delete notes from the diary.
+- **View Notes**: Allows users to view their previous notes.
+- **Search Notes**: Allows users to search for notes based on keywords.
+- **Logout**: Allows users to log out of the system.
