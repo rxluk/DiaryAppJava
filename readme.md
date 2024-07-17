@@ -34,7 +34,7 @@
 
 ## Use Case Diagram
 
-![Use Case Diagram](diagrams/use-case-diagram.png)
+
 
 Description of the main use cases:
 
