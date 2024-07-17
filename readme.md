@@ -38,14 +38,13 @@
 
 Description of the main use cases:
 
-- **User Registration**: Allows new users to register in the system.
+- **Register**: Allows new users to register in the system.
 - **Login**: Allows registered users to log into the system.
 - **Add Note**: Allows users to add new notes to the diary.
 - **Edit Note**: Allows users to edit existing notes in the diary.
 - **Delete Note**: Allows users to delete notes from the diary.
 - **View Notes**: Allows users to view their previous notes.
 - **Search Notes**: Allows users to search for notes based on keywords.
-- **Logout**: Allows users to log out of the system.
 
 ## Entity-Relationship Diagram (ERD)
 
