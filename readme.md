@@ -46,3 +46,11 @@ Description of the main use cases:
 - **View Notes**: Allows users to view their previous notes.
 - **Search Notes**: Allows users to search for notes based on keywords.
 - **Logout**: Allows users to log out of the system.
+
+## Entity-Relationship Diagram (ERD)
+
+![Entity-Relationship Diagram](diagrams/entity_relationship_diagram.png)
+
+Entities and relationships:
+- **User**: Stores user information including username and password.
+- **Note**: Stores diary entries with date, text content, learning, gratitude, and category attributes.
